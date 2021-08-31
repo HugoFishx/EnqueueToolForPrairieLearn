@@ -12,8 +12,8 @@ while 1:
 
     login = browser.find_elements_by_class_name("nav-link")[3]
     ActionChains(browser).click(login).perform()
-    browser.find_element_by_id("j_username").send_keys('shiqiyu2')
-    browser.find_element_by_id("j_password").send_keys('Yusq1998!!!!')
+    browser.find_element_by_id("j_username").send_keys('your_netid')
+    browser.find_element_by_id("j_password").send_keys('your_password')
 
     login_illinois = browser.find_element_by_xpath('//*[@id="submit_button"]/input').click()
 
